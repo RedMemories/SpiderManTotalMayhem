@@ -19,9 +19,9 @@ Once it was running, I gave it the treatment it deserves on a modern phone:
 - the game's compressed textures use a format today's GPUs can't read anymore, so they are now decoded when the game loads them
 - music and sound effects follow the media volume: the original game went completely silent when the phone was on vibrate or silent mode
 
-[![Street](screenshots/street.png)](screenshots/street.png)
+[![Burning building](screenshots/burning-building.png)](screenshots/burning-building.png)
 
-[![Wall jump](screenshots/wall-jump.png)](screenshots/wall-jump.png)
+[![Rooftop fight](screenshots/rooftop-fight.png)](screenshots/rooftop-fight.png)
 
 The game data lives in the app's own folder, so it doesn't need access to your storage, it doesn't read your phone's ID anymore and it doesn't ask for any permission. The game data is packed inside the APK, so there's nothing to download separately.
 

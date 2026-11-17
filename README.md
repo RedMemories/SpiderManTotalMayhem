@@ -15,9 +15,23 @@ Once it was running, I gave it the treatment it deserves on a modern phone:
 - full screen on today's tall displays, edge to edge: the city fills the whole screen, while menus and HUD keep their original proportions instead of being stretched
 - the joystick and the action buttons sit at the real edges of the screen, the same distance from the edge they had on the tablets the game was made for, and touches work across the whole display, so the joystick doesn't let go when your thumb drifts toward the edge
 - native resolution, the game is drawn with every pixel of the screen
-- 120 fps on 120 Hz screens, with the game speed still right
+- a steady 60 fps, or up to 120 fps on 120 Hz screens if you want it, with the game speed still right
 - the game's compressed textures use a format today's GPUs can't read anymore, so they are now decoded when the game loads them
 - music and sound effects follow the media volume: the original game went completely silent when the phone was on vibrate or silent mode
+- smooth fights on every phone: the original game created a new media player for every punch and hit sound, which made fights stutter on most phones. Sound effects are now kept ready in memory
+- the game picks up where you left it when you switch apps, without reloading its graphics
+- controller support: left stick or D-pad to move, A jump, X punch, Y web, B spider-sense, R1 super, L1 rescue and switches, Start pause
+
+## Settings
+
+**Long-press the game icon** and open **Settings**:
+
+- **Frame rate limit**: 60 fps (default), 30 fps for weak phones, or the screen's refresh rate (90/120 Hz)
+- **Resolution**: Native, 75% or 50%. Lower values are much faster, with a slightly softer image
+- **Screen**: Wide (the 3D view fills the screen), Original (black bars at the sides), or Stretched
+- **Controller**: on or off
+
+Saving restarts the game, your progress is kept.
 
 [![Burning building](screenshots/burning-building.png)](screenshots/burning-building.png)
 
@@ -27,8 +41,8 @@ The game data lives in the app's own folder, so it doesn't need access to your s
 
 ## Install
 
-1. Download the APK from **Releases**
-2. Install it
+1. Download from **Releases**: `SpiderManTotalMayhem.apk` if you don't have the game yet, or the small `SpiderManTotalMayhem-update.apk` if you already have any previous version
+2. Install it. If you're updating, don't uninstall the old version: install over it, your saves are kept
 3. Open it. The first launch takes a little while to unpack the game, after that it starts right away
 
 No PC, no extra downloads, no account.
